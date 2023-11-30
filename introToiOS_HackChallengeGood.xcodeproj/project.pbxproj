@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		2E2AA5862B18201700939F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5852B18201700939F24 /* AppDelegate.swift */; };
 		2E2AA5882B18201700939F24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5872B18201700939F24 /* SceneDelegate.swift */; };
-		2E2AA58A2B18201700939F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5892B18201700939F24 /* ViewController.swift */; };
 		2E2AA58D2B18201700939F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2AA58B2B18201700939F24 /* Main.storyboard */; };
 		2E2AA58F2B18201800939F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2AA58E2B18201800939F24 /* Assets.xcassets */; };
 		2E2AA5922B18201800939F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2AA5902B18201800939F24 /* LaunchScreen.storyboard */; };
+		2E2AA5B12B18215C00939F24 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2AA5B02B18215C00939F24 /* SDWebImage */; };
+		2E2AA5B32B18215C00939F24 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2AA5B22B18215C00939F24 /* SDWebImageMapKit */; };
+		2E2AA5B52B18278800939F24 /* SportRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5B42B18278800939F24 /* SportRepresentation.swift */; };
+		2E2AA5B72B18279F00939F24 /* GameRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5B62B18279F00939F24 /* GameRepresentation.swift */; };
+		2E2AA5B92B1827C400939F24 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5B82B1827C400939F24 /* Home.swift */; };
+		2E2AA5BB2B1827DC00939F24 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5BA2B1827DC00939F24 /* GameCell.swift */; };
+		2E2AA5BD2B18281100939F24 /* SportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5BC2B18281100939F24 /* SportCell.swift */; };
+		2E2AA5BF2B18283200939F24 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AA5BE2B18283200939F24 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E2AA5822B18201700939F24 /* introToiOS_HackChallengeGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = introToiOS_HackChallengeGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2AA5852B18201700939F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E2AA5872B18201700939F24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E2AA5892B18201700939F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E2AA58C2B18201700939F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E2AA58E2B18201800939F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2AA5912B18201800939F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E2AA5932B18201800939F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2AA5B42B18278800939F24 /* SportRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportRepresentation.swift; sourceTree = "<group>"; };
+		2E2AA5B62B18279F00939F24 /* GameRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepresentation.swift; sourceTree = "<group>"; };
+		2E2AA5B82B1827C400939F24 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2E2AA5BA2B1827DC00939F24 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		2E2AA5BC2B18281100939F24 /* SportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCell.swift; sourceTree = "<group>"; };
+		2E2AA5BE2B18283200939F24 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2AA5B32B18215C00939F24 /* SDWebImageMapKit in Frameworks */,
+				2E2AA5B12B18215C00939F24 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,44 @@
 		2E2AA5842B18201700939F24 /* introToiOS_HackChallengeGood */ = {
 			isa = PBXGroup;
 			children = (
-				2E2AA5852B18201700939F24 /* AppDelegate.swift */,
+				2E2AA5AA2B18212900939F24 /* Models */,
+				2E2AA59F2B1820D800939F24 /* Controllers */,
+				2E2AA5A22B1820EF00939F24 /* Views */,
 				2E2AA5872B18201700939F24 /* SceneDelegate.swift */,
-				2E2AA5892B18201700939F24 /* ViewController.swift */,
+				2E2AA5852B18201700939F24 /* AppDelegate.swift */,
 				2E2AA58B2B18201700939F24 /* Main.storyboard */,
 				2E2AA58E2B18201800939F24 /* Assets.xcassets */,
 				2E2AA5902B18201800939F24 /* LaunchScreen.storyboard */,
 				2E2AA5932B18201800939F24 /* Info.plist */,
 			);
 			path = introToiOS_HackChallengeGood;
+			sourceTree = "<group>";
+		};
+		2E2AA59F2B1820D800939F24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AA5B82B1827C400939F24 /* Home.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E2AA5A22B1820EF00939F24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AA5BA2B1827DC00939F24 /* GameCell.swift */,
+				2E2AA5BC2B18281100939F24 /* SportCell.swift */,
+				2E2AA5BE2B18283200939F24 /* HeaderCollectionReusableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E2AA5AA2B18212900939F24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AA5B42B18278800939F24 /* SportRepresentation.swift */,
+				2E2AA5B62B18279F00939F24 /* GameRepresentation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,10 @@
 			dependencies = (
 			);
 			name = introToiOS_HackChallengeGood;
+			packageProductDependencies = (
+				2E2AA5B02B18215C00939F24 /* SDWebImage */,
+				2E2AA5B22B18215C00939F24 /* SDWebImageMapKit */,
+			);
 			productName = introToiOS_HackChallengeGood;
 			productReference = 2E2AA5822B18201700939F24 /* introToiOS_HackChallengeGood.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,9 @@
 				Base,
 			);
 			mainGroup = 2E2AA5792B18201700939F24;
+			packageReferences = (
+				2E2AA5AF2B18215C00939F24 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 2E2AA5832B18201700939F24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2AA58A2B18201700939F24 /* ViewController.swift in Sources */,
+				2E2AA5BB2B1827DC00939F24 /* GameCell.swift in Sources */,
+				2E2AA5BF2B18283200939F24 /* HeaderCollectionReusableView.swift in Sources */,
+				2E2AA5B52B18278800939F24 /* SportRepresentation.swift in Sources */,
 				2E2AA5862B18201700939F24 /* AppDelegate.swift in Sources */,
+				2E2AA5B92B1827C400939F24 /* Home.swift in Sources */,
 				2E2AA5882B18201700939F24 /* SceneDelegate.swift in Sources */,
+				2E2AA5BD2B18281100939F24 /* SportCell.swift in Sources */,
+				2E2AA5B72B18279F00939F24 /* GameRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +416,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E2AA5AF2B18215C00939F24 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E2AA5B02B18215C00939F24 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E2AA5AF2B18215C00939F24 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2E2AA5B22B18215C00939F24 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E2AA5AF2B18215C00939F24 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E2AA57A2B18201700939F24 /* Project object */;
 }
